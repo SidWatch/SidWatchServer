@@ -1,0 +1,198 @@
+"General"
+{
+"ProjectType" = "local"
+"AutoLoadTemplate" = "%s.php;class.%s.php;"
+"IncludeDirs" = ""
+}
+"Configurations"
+{
+    "Local|PHP 5.5"
+    {
+    }
+    "Staging|PHP 5.5"
+    {
+    }
+    "Production|PHP 5.5"
+    {
+    }
+    "Local|PHP 5.3"
+    {
+    }
+    "Staging|PHP 5.3"
+    {
+    }
+    "Production|PHP 5.3"
+    {
+    }
+}
+"Files"
+{
+    "config.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "datalibrary"
+    {
+    "ProjRelPath" = "T"
+    }
+    "datalibrary\\database"
+    {
+    "ProjRelPath" = "T"
+    }
+    "datalibrary\\database\\AbstractMySQLDAO.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "datalibrary\\database\\StationReadingDAO.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "datalibrary\\datalibraryincludes.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "datalibrary\\managers"
+    {
+    "ProjRelPath" = "T"
+    }
+    "datalibrary\\managers\\DataLibraryManager.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "datalibrary\\objects"
+    {
+    "ProjRelPath" = "T"
+    }
+    "datalibrary\\objects\\StationReading.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "iirf.ini"
+    {
+    "ProjRelPath" = "T"
+    }
+    "index.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "library"
+    {
+    "ProjRelPath" = "T"
+    }
+    "library\\database"
+    {
+    "ProjRelPath" = "T"
+    }
+    "library\\database\\AbstractMongoDAO.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "library\\database\\AccessKeyDAO.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "library\\database\\FileDAO.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "library\\database\\PasswordDAO.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "library\\database\\SiteDAO.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "library\\database\\StationDAO.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "library\\database\\UserDAO.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "library\\handlers"
+    {
+    "ProjRelPath" = "T"
+    }
+    "library\\handlers\\AbstractHandler.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "library\\handlers\\UploadAccessHandler.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "library\\libraryincludes.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "library\\managers"
+    {
+    "ProjRelPath" = "T"
+    }
+    "library\\managers\\AppManager.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "library\\objects"
+    {
+    "ProjRelPath" = "T"
+    }
+    "library\\objects\\AbstractObject.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "library\\objects\\AccessKey.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "library\\objects\\File.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "library\\objects\\Password.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "library\\objects\\Site.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "library\\objects\\Station.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "library\\objects\\User.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "services"
+    {
+    "ProjRelPath" = "T"
+    }
+    "services\\restapi.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "services\\serviceincludes.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "web.config"
+    {
+    "ProjRelPath" = "T"
+    }
+}
+"ProjStartupServices"
+{
+}
+"Globals"
+{
+}
+"References"
+{
+"PhpReference" = "mongo"
+"PhpReference" = "json"
+"PhpReference" = "mysqlnd"
+}
