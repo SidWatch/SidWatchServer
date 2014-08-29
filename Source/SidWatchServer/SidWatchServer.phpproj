@@ -27,43 +27,311 @@
 }
 "Files"
 {
-    "config.php"
+    "app"
     {
     "ProjRelPath" = "T"
     }
-    "datalibrary"
+    "app\\commands"
     {
     "ProjRelPath" = "T"
     }
-    "datalibrary\\database"
+    "app\\commands\\.gitkeep"
     {
     "ProjRelPath" = "T"
     }
-    "datalibrary\\database\\AbstractMySQLDAO.php"
+    "app\\config"
     {
     "ProjRelPath" = "T"
     }
-    "datalibrary\\database\\StationReadingDAO.php"
+    "app\\config\\app.php"
     {
     "ProjRelPath" = "T"
     }
-    "datalibrary\\datalibraryincludes.php"
+    "app\\config\\auth.php"
     {
     "ProjRelPath" = "T"
     }
-    "datalibrary\\managers"
+    "app\\config\\cache.php"
     {
     "ProjRelPath" = "T"
     }
-    "datalibrary\\managers\\DataLibraryManager.php"
+    "app\\config\\compile.php"
     {
     "ProjRelPath" = "T"
     }
-    "datalibrary\\objects"
+    "app\\config\\database.php"
     {
     "ProjRelPath" = "T"
     }
-    "datalibrary\\objects\\StationReading.php"
+    "app\\config\\local"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\config\\local\\app.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\config\\local\\database.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\config\\mail.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\config\\packages"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\config\\packages\\.gitkeep"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\config\\queue.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\config\\remote.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\config\\services.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\config\\session.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\config\\testing"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\config\\testing\\cache.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\config\\testing\\session.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\config\\view.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\config\\workbench.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\controllers"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\controllers\\.gitkeep"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\controllers\\BaseController.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\controllers\\HomeController.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\database"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\database\\migrations"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\database\\migrations\\.gitkeep"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\database\\production.sqlite"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\database\\seeds"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\database\\seeds\\.gitkeep"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\database\\seeds\\DatabaseSeeder.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\filters.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\lang"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\lang\\en"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\lang\\en\\pagination.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\lang\\en\\reminders.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\lang\\en\\validation.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\models"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\models\\User.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\routes.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\start"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\start\\artisan.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\start\\global.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\start\\local.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\storage"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\storage\\.gitignore"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\storage\\cache"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\storage\\cache\\.gitignore"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\storage\\logs"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\storage\\logs\\.gitignore"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\storage\\meta"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\storage\\meta\\.gitignore"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\storage\\meta\\services.json"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\storage\\sessions"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\storage\\sessions\\.gitignore"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\storage\\sessions\\1863d6be6dfcd89c78b1b49bfb19d18654d5de34"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\storage\\views"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\storage\\views\\.gitignore"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\storage\\views\\2e07e7415ca0550fdaa98942e19858f1"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\tests"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\tests\\ExampleTest.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\tests\\TestCase.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\views"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\views\\emails"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\views\\emails\\auth"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\views\\emails\\auth\\reminder.blade.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\views\\login.blade.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "bootstrap"
+    {
+    "ProjRelPath" = "T"
+    }
+    "bootstrap\\autoload.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "bootstrap\\compiled.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "bootstrap\\paths.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "bootstrap\\start.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "composer.json"
     {
     "ProjRelPath" = "T"
     }
@@ -71,111 +339,735 @@
     {
     "ProjRelPath" = "T"
     }
-    "index.php"
+    "public"
     {
     "ProjRelPath" = "T"
     }
-    "library"
+    "public\\.htaccess"
     {
     "ProjRelPath" = "T"
     }
-    "library\\database"
+    "public\\favicon.ico"
     {
     "ProjRelPath" = "T"
     }
-    "library\\database\\AbstractMongoDAO.php"
+    "public\\index.php"
     {
     "ProjRelPath" = "T"
     }
-    "library\\database\\AccessKeyDAO.php"
+    "public\\robots.txt"
     {
     "ProjRelPath" = "T"
     }
-    "library\\database\\FileDAO.php"
+    "server.php"
     {
     "ProjRelPath" = "T"
     }
-    "library\\database\\PasswordDAO.php"
+    "vendor"
     {
     "ProjRelPath" = "T"
     }
-    "library\\database\\SiteDAO.php"
+    "vendor\\autoload.php"
     {
     "ProjRelPath" = "T"
     }
-    "library\\database\\StationDAO.php"
+    "vendor\\bin"
     {
     "ProjRelPath" = "T"
     }
-    "library\\database\\UserDAO.php"
+    "vendor\\bin\\boris"
     {
     "ProjRelPath" = "T"
     }
-    "library\\handlers"
+    "vendor\\bin\\boris.bat"
     {
     "ProjRelPath" = "T"
     }
-    "library\\handlers\\AbstractHandler.php"
+    "vendor\\bin\\classpreloader.php"
     {
     "ProjRelPath" = "T"
     }
-    "library\\handlers\\UploadAccessHandler.php"
+    "vendor\\bin\\classpreloader.php.bat"
     {
     "ProjRelPath" = "T"
     }
-    "library\\libraryincludes.php"
+    "vendor\\classpreloader"
     {
     "ProjRelPath" = "T"
     }
-    "library\\managers"
+    "vendor\\classpreloader\\classpreloader"
     {
     "ProjRelPath" = "T"
     }
-    "library\\managers\\AppManager.php"
+    "vendor\\composer"
     {
     "ProjRelPath" = "T"
     }
-    "library\\objects"
+    "vendor\\composer\\autoload_classmap.php"
     {
     "ProjRelPath" = "T"
     }
-    "library\\objects\\AbstractObject.php"
+    "vendor\\composer\\autoload_files.php"
     {
     "ProjRelPath" = "T"
     }
-    "library\\objects\\AccessKey.php"
+    "vendor\\composer\\autoload_namespaces.php"
     {
     "ProjRelPath" = "T"
     }
-    "library\\objects\\File.php"
+    "vendor\\composer\\autoload_psr4.php"
     {
     "ProjRelPath" = "T"
     }
-    "library\\objects\\Password.php"
+    "vendor\\composer\\autoload_real.php"
     {
     "ProjRelPath" = "T"
     }
-    "library\\objects\\Site.php"
+    "vendor\\composer\\ClassLoader.php"
     {
     "ProjRelPath" = "T"
     }
-    "library\\objects\\Station.php"
+    "vendor\\composer\\include_paths.php"
     {
     "ProjRelPath" = "T"
     }
-    "library\\objects\\User.php"
+    "vendor\\composer\\installed.json"
     {
     "ProjRelPath" = "T"
     }
-    "services"
+    "vendor\\d11wtq"
     {
     "ProjRelPath" = "T"
     }
-    "services\\restapi.php"
+    "vendor\\d11wtq\\boris"
     {
     "ProjRelPath" = "T"
     }
-    "services\\serviceincludes.php"
+    "vendor\\filp"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\filp\\whoops"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\ircmaxell"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\ircmaxell\\password-compat"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\.gitignore"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\.travis.yml"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\composer.json"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\phpunit.xml"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\README.md"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Eloquent"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Eloquent\\Model.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb\\Auth"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb\\Auth\\DatabaseReminderRepository.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb\\Auth\\ReminderServiceProvider.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb\\Collection.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb\\Connection.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb\\Eloquent"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb\\Eloquent\\Builder.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb\\Eloquent\\Collection.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb\\Eloquent\\SoftDeletingTrait.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb\\Model.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb\\MongodbServiceProvider.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb\\Query"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb\\Query\\Builder.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb\\Relations"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb\\Relations\\BelongsTo.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb\\Relations\\BelongsToMany.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb\\Relations\\EmbedsMany.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb\\Relations\\EmbedsOne.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb\\Relations\\EmbedsOneOrMany.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb\\Relations\\HasMany.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb\\Relations\\HasOne.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb\\Relations\\MorphTo.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb\\Schema"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb\\Schema\\Blueprint.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\src\\Jenssegers\\Mongodb\\Schema\\Builder.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\AuthTest.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\bootstrap.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\CacheTest.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\config"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\config\\database.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\ConnectionTest.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\EmbeddedRelationsTest.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\models"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\models\\Address.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\models\\Book.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\models\\Client.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\models\\Group.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\models\\Item.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\models\\MysqlBook.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\models\\MysqlRole.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\models\\MysqlUser.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\models\\Photo.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\models\\Role.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\models\\Soft.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\models\\User.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\ModelTest.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\MysqlRelationsTest.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\QueryBuilderTest.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\QueryTest.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\RelationsTest.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\SchemaTest.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\SeederTest.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\seeds"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\seeds\\DatabaseSeeder.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\seeds\\UserTableSeeder.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\TestCase.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jenssegers\\mongodb\\tests\\ValidationTest.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jeremeamia"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\jeremeamia\\SuperClosure"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\laravel"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\laravel\\framework"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\laravel\\framework\\.gitattributes"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\laravel\\framework\\.gitignore"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\laravel\\framework\\.scrutinizer.yml"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\laravel\\framework\\.travis.yml"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\laravel\\framework\\composer.json"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\laravel\\framework\\CONTRIBUTING.md"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\laravel\\framework\\LICENSE.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\laravel\\framework\\phpunit.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\laravel\\framework\\phpunit.xml"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\laravel\\framework\\readme.md"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\monolog"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\monolog\\monolog"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\nesbot"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\nesbot\\carbon"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\nikic"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\patchwork"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\phpseclib"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\predis"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\psr"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\.gitignore"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\composer.json"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\composer.json"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\config.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\datalibrary"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\datalibrary\\database"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\datalibrary\\database\\AbstractMySQLDAO.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\datalibrary\\database\\StationReadingDAO.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\datalibrary\\datalibraryincludes.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\datalibrary\\managers"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\datalibrary\\managers\\DataLibraryManager.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\datalibrary\\objects"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\datalibrary\\objects\\StationReading.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\library"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\library\\database"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\library\\database\\AbstractMongoDAO.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\library\\database\\AccessKeyDAO.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\library\\database\\FileDAO.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\library\\database\\PasswordDAO.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\library\\database\\SiteDAO.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\library\\database\\StationDAO.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\library\\database\\UserDAO.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\library\\handlers"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\library\\handlers\\AbstractHandler.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\library\\handlers\\UploadAccessHandler.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\library\\libraryincludes.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\library\\managers"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\library\\managers\\AppManager.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\library\\objects"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\library\\objects\\AbstractObject.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\library\\objects\\AccessKey.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\library\\objects\\File.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\library\\objects\\Password.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\library\\objects\\Site.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\library\\objects\\Station.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\library\\objects\\User.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\SidWatchPHPLibrary.intellisense.cache"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\SidWatchPHPLibrary.phpproj"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\sidwatch\\sidwatchphplibrary\\Source\\SidWatchPHPLibrary.sln"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\stack"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\swiftmailer"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\swiftmailer\\swiftmailer"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\symfony"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\symfony\\browser-kit"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\symfony\\console"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\symfony\\css-selector"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\symfony\\debug"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\symfony\\dom-crawler"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\symfony\\event-dispatcher"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\symfony\\filesystem"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\symfony\\finder"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\symfony\\http-foundation"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\symfony\\http-kernel"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\symfony\\process"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\symfony\\routing"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\symfony\\security-core"
+    {
+    "ProjRelPath" = "T"
+    }
+    "vendor\\symfony\\translation"
     {
     "ProjRelPath" = "T"
     }
