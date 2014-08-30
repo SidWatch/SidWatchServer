@@ -139,6 +139,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "app\\controllers\\RestController.php"
+    {
+    "ProjRelPath" = "T"
+    }
     "app\\database"
     {
     "ProjRelPath" = "T"
@@ -167,7 +171,19 @@
     {
     "ProjRelPath" = "T"
     }
+    "app\\database\\seeds\\AccessKeySeeder.php"
+    {
+    "ProjRelPath" = "T"
+    }
     "app\\database\\seeds\\DatabaseSeeder.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\database\\seeds\\SiteSeeder.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\database\\seeds\\StationSeeder.php"
     {
     "ProjRelPath" = "T"
     }

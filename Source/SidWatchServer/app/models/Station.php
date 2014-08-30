@@ -16,7 +16,7 @@ class Station extends Eloquent {
 		parent::__construct();
 	}
 	
-	protected $fillable = array('CallSign', 'Frequency', 'Latitude', 'Longitude');
+	protected $fillable = array('CallSign', 'Frequency', 'Latitude', 'Longitude', 'Country', 'Notes', 'Location' );
 }
 
 ?>

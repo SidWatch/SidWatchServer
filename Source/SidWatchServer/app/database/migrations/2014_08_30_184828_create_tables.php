@@ -18,8 +18,8 @@ class CreateTables extends Migration {
 				$table->bigIncrements('id');
 				$table->string('emailaddress', 255)->unique();
 				$table->string('password', 100);
-				$table->string('firstname', 50);
-				$table->string('lastname', 50);
+				$table->string('firstname', 50)->nullable();
+				$table->string('lastname', 50)->nullable();
 				$table->timestamps();
 			});
 		
@@ -31,6 +31,7 @@ class CreateTables extends Migration {
 				$table->string('secretkey');
 				$table->string('bucketname');
 				$table->DateTime('datetime');
+				$table->timestamps();
 			});
 		
 		Schema::create('sites', function(Blueprint $table)
@@ -50,10 +51,13 @@ class CreateTables extends Migration {
 			{
 				$table->engine = 'InnoDB';
 				$table->bigIncrements('id');
-				$table->string('callsign', 10)->unique();
-				$table->bigInteger('frequency');
-				$table->float('latitude');
-				$table->float('longitude');
+				$table->string('callsign', 30)->unique();
+				$table->string('country', 255)->nullable();
+				$table->string('location', 255)->nullable();
+				$table->string('notes', 255)->nullable();
+				$table->float('frequency')->nullable();
+				$table->float('latitude')->nullable();
+				$table->float('longitude')->nullable();
 				$table->timestamps();
 			});
 		
@@ -64,9 +68,9 @@ class CreateTables extends Migration {
 				$table->bigInteger('siteid')->unsigned();
 				$table->dateTime('datetime');
 				$table->string('filename', 255);
-				$table->boolean('processed');
-				$table->boolean('archived');
-				$table->boolean('available');
+				$table->boolean('processed')->default(false);
+				$table->boolean('archived')->default(false);
+				$table->boolean('available')->default(false);
 				$table->timestamps();
 				
 				$table->foreign('siteid')->references('id')->on('sites');	
@@ -106,7 +110,7 @@ class CreateTables extends Migration {
 				$table->engine = 'InnoDB';
 				$table->bigIncrements('id');
 				$table->bigInteger('sitespectrumid')->unsigned();
-				$table->bigInteger('frequency');
+				$table->float('frequency');
 				$table->float('readingmagnitude');
 				
 				$table->foreign('sitespectrumid')->references('id')->on('sitespectrums');

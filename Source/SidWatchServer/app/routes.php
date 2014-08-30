@@ -15,7 +15,6 @@ Route::get('login', array('uses' => 'HomeController@showLogin'));
 
 // route to process the form
 Route::post('login', array('uses' => 'HomeController@doLogin'));
-
 Route::get('logout', array('uses' => 'HomeController@doLogout'));
 
 Route::get('/', function()
@@ -27,3 +26,5 @@ Route::get('my/page', function() {
 	if (Auth::guest()) 
 		return Redirect::to('login');
 });
+
+Route::get('rest/accesskey', array('uses' => 'RestController@getAccessKey'));

@@ -17,6 +17,8 @@ class AccessKey extends Eloquent {
 		parent::__construct();
 	}
 	
+	protected $table = 'accesskeys';
+	
 	protected $fillable = array('DateTime', 'AccessKey', 'SecretKey', 'BucketName');
 }
 
