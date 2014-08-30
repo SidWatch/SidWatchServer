@@ -24,5 +24,6 @@ Route::get('/', function()
 });
 
 Route::get('my/page', function() {
-	if (Auth::guest()) return Redirect::to('login');
+	if (Auth::guest()) 
+		return Redirect::to('login');
 });
