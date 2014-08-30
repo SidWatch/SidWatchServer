@@ -13,7 +13,7 @@ return array(
 	|
 	*/
 
-	'debug' => true,
+	'debug' => false,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -78,7 +78,7 @@ return array(
 	|
 	*/
 
-	'key' => 'JufO1oDuxpbhkTh0NOkcM6pSf2cYg4FQ',
+	'key' => 'ymhXDzI7uRGyoOLMgN5U4Hz6X1KZWlO3',
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 
@@ -94,6 +94,7 @@ return array(
 	*/
 
 	'providers' => array(
+
 		'Illuminate\Foundation\Providers\ArtisanServiceProvider',
 		'Illuminate\Auth\AuthServiceProvider',
 		'Illuminate\Cache\CacheServiceProvider',
@@ -120,6 +121,7 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+
 	),
 
 	/*
