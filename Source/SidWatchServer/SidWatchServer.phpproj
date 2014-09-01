@@ -395,6 +395,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "public\\primary.css"
+    {
+    "ProjRelPath" = "T"
+    }
     "public\\robots.txt"
     {
     "ProjRelPath" = "T"

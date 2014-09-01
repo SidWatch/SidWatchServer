@@ -1,10 +1,9 @@
 <!doctype html>
 <html>
 <head>
-	<title>Look at me Login</title>
+	<title>SidWatch Login</title>
 </head>
 <body>
-
 	{{ Form::open(array('url' => 'login')) }}
 		<h1>Login</h1>
 
@@ -16,7 +15,7 @@
 
 		<p>
 			{{ Form::label('email', 'Email Address') }}
-			{{ Form::text('email', Input::old('email'), array('placeholder' => 'awesome@awesome.com')) }}
+			{{ Form::text('email', Input::old('email'), array('placeholder' => '')) }}
 		</p>
 
 		<p>
@@ -26,6 +25,5 @@
 
 		<p>{{ Form::submit('Submit!') }}</p>
 	{{ Form::close() }}
-
 </body>
 </html>

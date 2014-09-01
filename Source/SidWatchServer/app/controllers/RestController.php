@@ -14,8 +14,6 @@ class RestController  extends BaseController {
 		$email = Request::header('sidwatch-emailaddress');
 		$password = Request::header('sidwatch-password');
 		
-		//return "{ \"Email\":\"$email\", \"Password\":\"$password\" }";
-		
 		if (Auth::attempt(array('emailaddress' => $email, 'password' => $password)))
 		{
 			$accessKey = AccessKey::orderBy('DateTime', 'DESC')->first();
@@ -26,7 +24,6 @@ class RestController  extends BaseController {
 		{
 			return '{ "error":"not authenticated"}';
 		}
-		
 	}
 	
 }
