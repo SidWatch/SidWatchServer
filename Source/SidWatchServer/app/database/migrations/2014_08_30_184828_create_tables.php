@@ -84,10 +84,12 @@ class CreateTables extends Migration {
 				$table->dateTime('readingdatetime');
 				$table->bigInteger('stationid')->unsigned();
 				$table->float('readingmagnitude');
+				$table->bigInteger('fileid')->unsigned();
 				$table->timestamps();
 				
 				$table->foreign('siteid')->references('id')->on('sites');
 				$table->foreign('stationid')->references('id')->on('stations');
+				$table->foreign('fileid')->references('id')->on('files');
 			});
 		
 		Schema::create('sitespectrums', function(Blueprint $table)
@@ -100,9 +102,11 @@ class CreateTables extends Migration {
 				$table->integer('nfft');
 				$table->integer('samplingformat');
 				$table->string('sourcefilename', 255);
+				$table->bigInteger('fileid')->unsigned();
 				$table->timestamps();
 				
 				$table->foreign('siteid')->references('id')->on('sites');
+				$table->foreign('fileid')->references('id')->on('files');
 			});
 		
 		Schema::create('sitespectrumdata', function(Blueprint $table)
