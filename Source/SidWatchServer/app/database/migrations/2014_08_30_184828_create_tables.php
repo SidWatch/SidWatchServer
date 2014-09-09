@@ -101,7 +101,6 @@ class CreateTables extends Migration {
 				$table->integer('samplespersecond');
 				$table->integer('nfft');
 				$table->integer('samplingformat');
-				$table->string('sourcefilename', 255);
 				$table->bigInteger('fileid')->unsigned();
 				$table->timestamps();
 				
