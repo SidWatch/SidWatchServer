@@ -115,8 +115,10 @@ class CreateTables extends Migration {
 				$table->bigInteger('sitespectrumid')->unsigned();
 				$table->float('frequency');
 				$table->float('readingmagnitude');
+				$table->timestamps();
 				
 				$table->foreign('sitespectrumid')->references('id')->on('sitespectrums');
+				$table->unique(array('sitespectrumid', 'frequency'));
 			});
 	}
 
