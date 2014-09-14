@@ -41,9 +41,9 @@ class CreateTables extends Migration {
 				$table->string('monitorid', 10)->unique();
 				$table->string('name', 50);
 				$table->string('timezone', 10);
-				$table->float('utcoffset');
-				$table->float('latitude');
-				$table->float('longitude');
+				$table->float('utcoffset', 4, 2);
+				$table->float('latitude', 12, 8);
+				$table->float('longitude', 12, 8);
 				$table->timestamps();
 			});
 		
@@ -55,9 +55,9 @@ class CreateTables extends Migration {
 				$table->string('country', 255)->nullable();
 				$table->string('location', 255)->nullable();
 				$table->string('notes', 255)->nullable();
-				$table->float('frequency')->nullable();
-				$table->float('latitude')->nullable();
-				$table->float('longitude')->nullable();
+				$table->float('frequency', 15, 6)->nullable();
+				$table->float('latitude', 12, 8)->nullable();
+				$table->float('longitude', 12, 8)->nullable();
 				$table->timestamps();
 			});
 		
@@ -83,7 +83,7 @@ class CreateTables extends Migration {
 				$table->bigInteger('siteid')->unsigned();
 				$table->dateTime('readingdatetime');
 				$table->bigInteger('stationid')->unsigned();
-				$table->float('readingmagnitude');
+				$table->float('readingmagnitude', 15, 6);
 				$table->bigInteger('fileid')->unsigned();
 				$table->timestamps();
 				
@@ -113,8 +113,8 @@ class CreateTables extends Migration {
 				$table->engine = 'InnoDB';
 				$table->bigIncrements('id');
 				$table->bigInteger('sitespectrumid')->unsigned();
-				$table->float('frequency');
-				$table->float('readingmagnitude');
+				$table->float('frequency', 15, 6);
+				$table->float('readingmagnitude', 15, 6);
 				$table->timestamps();
 				
 				$table->foreign('sitespectrumid')->references('id')->on('sitespectrums');
