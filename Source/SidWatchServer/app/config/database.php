@@ -50,7 +50,7 @@ return array(
 				'host'      => 'localhost',
 				'database'  => 'sidwatchdata',
 				'username'  => 'sidwatch_dev',
-				'password'  => 'app_user_password',
+				'password'  => 'm1thr1l1',
 				'charset'   => 'utf8',
 				'collation' => 'utf8_unicode_ci',
 				'prefix'    => '',

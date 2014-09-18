@@ -223,6 +223,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "app\\models\\ChartValue.php"
+    {
+    "ProjRelPath" = "T"
+    }
     "app\\models\\File.php"
     {
     "ProjRelPath" = "T"
@@ -232,6 +236,10 @@
     "ProjRelPath" = "T"
     }
     "app\\models\\SiteSpectrum.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\models\\SiteSpectrumData.php"
     {
     "ProjRelPath" = "T"
     }
@@ -344,6 +352,10 @@
     "ProjRelPath" = "T"
     }
     "app\\views\\emails\\auth\\reminder.blade.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\views\\graph.php"
     {
     "ProjRelPath" = "T"
     }

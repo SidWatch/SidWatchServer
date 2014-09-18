@@ -18,13 +18,15 @@ Route::post('login', array('uses' => 'HomeController@doLogin'));
 Route::get('logout', array('uses' => 'HomeController@doLogout'));
 
 Route::get('/', function()
-{
-	return View::make('hello');
-});
+	{
+		return View::make('hello');
+	});
 
 Route::get('my/page', function() {
-	if (Auth::guest()) 
+		if (Auth::guest()) 
 		return Redirect::to('login');
-});
+	});
 
 Route::get('rest/accesskey', array('uses' => 'RestController@getAccessKey'));
+Route::get('graph', array('uses' => 'HomeController@showGraph'));
+

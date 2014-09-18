@@ -64,5 +64,27 @@ class HomeController extends BaseController {
 		Auth::logout(); // log the user out of our application
 		return Redirect::to('login'); // redirect the user to the login screen
 	}
+	
+	public function showGraph()
+	{
+		$raw_data = SiteSpectrumData::where('sitespectrumid', '=', 2914)->orderby('frequency')->get();
+		
+		$count = count($raw_data);
+		
+		$data = array($count);
+		
+		for ($i = 0; $i < $count; $i++) {
+			$item = $raw_data[$i];
+			
+			$value = new ChartValue();
+			$value->x = $item->frequency;
+			$value->y = 20*log10($item->readingmagnitude);
+			
+			$data[$i] = $value;
+		}		 
+		
+		$view = View::make('graph', array('data' => $data));
+		return $view;
+	}
 
 }
