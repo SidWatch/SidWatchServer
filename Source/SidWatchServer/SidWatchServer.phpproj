@@ -159,6 +159,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "app\\database\\migrations\\2014_09_19_030056_create_drill_downs.php"
+    {
+    "ProjRelPath" = "T"
+    }
     "app\\database\\production.sqlite"
     {
     "ProjRelPath" = "T"

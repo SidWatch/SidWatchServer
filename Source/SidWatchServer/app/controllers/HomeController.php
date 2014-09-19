@@ -67,7 +67,7 @@ class HomeController extends BaseController {
 	
 	public function showGraph()
 	{
-		$raw_data = SiteSpectrumData::where('sitespectrumid', '=', 2914)->orderby('frequency')->get();
+		$raw_data = SiteSpectrumData::where('sitespectrumid', '=', 1000)->orderby('frequency')->get();
 		
 		$count = count($raw_data);
 		
