@@ -90,6 +90,7 @@ class CreateTables extends Migration {
 				$table->foreign('siteid')->references('id')->on('sites');
 				$table->foreign('stationid')->references('id')->on('stations');
 				$table->foreign('fileid')->references('id')->on('files');
+				$table->unique(array('siteid', 'stationid', 'readingdatetime'), 'idx_site_station_time');
 			});
 		
 		Schema::create('sitespectrums', function(Blueprint $table)
