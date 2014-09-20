@@ -81,7 +81,7 @@ class CreateTables extends Migration {
 				$table->engine = 'InnoDB';
 				$table->bigIncrements('id');
 				$table->bigInteger('siteid')->unsigned();
-				$table->dateTime('readingdatetime');
+				$table->dateTime('readingdatetime', 6);
 				$table->bigInteger('stationid')->unsigned();
 				$table->float('readingmagnitude', 15, 6);
 				$table->bigInteger('fileid')->unsigned();
@@ -97,7 +97,7 @@ class CreateTables extends Migration {
 				$table->engine = 'InnoDB';
 				$table->bigIncrements('id');
 				$table->bigInteger('siteid')->unsigned();
-				$table->dateTime('readingdatetime');
+				$table->dateTime('readingdatetime', 6);
 				$table->integer('samplespersecond');
 				$table->integer('nfft');
 				$table->integer('samplingformat');
@@ -129,7 +129,20 @@ class CreateTables extends Migration {
 	 */
 	public function down()
 	{
-		//
+		
+		Schema::drop('stationreadings');
+		Schema::drop('sitespectrumdata');
+		Schema::drop('sitespectrums');
+		
+		Schema::drop('files');
+		
+		Schema::drop('sites');
+		
+		Schema::drop('users');
+		Schema::drop('accesskeys');
+		Schema::drop('stations');
+		
+		
 	}
 
 }
