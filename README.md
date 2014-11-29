@@ -1,9 +1,9 @@
 SidWatchServer
 ==============
 
-PHP SidWatch Server
+SidWatch Server
 --------------
-PHP Based SID Data Collection Platform
+Based SID Data Collection Platform
 
 ### Objectives
 Develope a cross platform data collection platform that enables the collection 
